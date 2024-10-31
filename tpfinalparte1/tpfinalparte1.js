@@ -1,3 +1,8 @@
+//Desarrollado por Lautaro Romero Temperini 95526/6 & Ivan M. Portela 120366/8
+//Explicacion Lautaro https://youtu.be/ivrIaK6yDjI
+//Explicacion Ivan https://www.youtube.com/watch?v=lM5N9-4j2po&ab_channel=IvanRotela
+//Diagrama de flujo https://drive.google.com/file/d/1kh4ar8WvimRVxCbauK8L2OhY1yofANzF/view
+
 let estado = 0; // Inicializa el estado en 0
 let imagenes = []; // Arreglo para almacenar imágenes
 let textos = []; // Arreglo para almacenar textos de la historia
