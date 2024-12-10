@@ -1,0 +1,128 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            scroll-behavior: smooth;
+        }
+
+        .navbar {
+            background-color: rgba(33, 37, 41) !important;
+            backdrop-filter: blur(5px);
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            z-index: 99;
+        }
+
+        .banner {
+            transition: transform 0.3s ease;
+        }
+
+        .banner:hover {
+            transform: scale(1.05);
+        }
+
+        .card {
+            height: 480px;
+        }
+
+        .nav-item .nav-link {
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .nav-item .nav-link:hover {
+            transform: scale(1.05);
+            color: #f8f9fa !important;
+        }
+
+        .nav-item .nav-link:hover::after {
+            width: 100%;
+        }
+        
+
+        /* Sección del equipo con efecto de voltear las tarjetas de perfil */
+        .team-section {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin-top: 30px;
+        }
+
+        .profile-container {
+            perspective: 1000px;
+        }
+
+        .profile-card {
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+
+        .profile-container:hover .profile-card {
+            transform: rotateY(180deg);
+        }
+
+        .profile-front,
+        .profile-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-front {
+            background-color: #f8f9fa;
+        }
+
+        .profile-back {
+            background-color: #007bff;
+            color: white;
+            transform: rotateY(180deg);
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #007bff;
+        }
+
+        /* Estilo para la introducción del proyecto */
+        .project-intro {
+            background-color: #e9ecef;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+  
+    #back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+        z-index: 1000;
+    }
+
+
+    .card {
+        height: 480px;
+    }
+
+    
